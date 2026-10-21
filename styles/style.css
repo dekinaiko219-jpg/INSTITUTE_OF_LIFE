@@ -1,1 +1,307 @@
-//style css
+
+/* 1. ОБЩИЕ НАСТРОЙКИ */
+/*
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(232, 233, 224, 1);
+    color: #1B3027;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 6%;
+}
+
+.eyebrow {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+/* 2. ВЕРХНЕЕ МЕНЮ */
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 6%;
+    background: #192B24;
+    color: #F1F0E8;
+}
+
+.logo {
+    font-size: 14px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 11px;
+}
+
+.navigation a:hover {
+    opacity: 0.6;
+} */
+
+
+/* 3. ГЛАВНЫЙ ЭКРАН */
+
+/* .hero {
+    padding-top: 50px;
+    background: #192B24;
+    color: #F1F0E8;
+}
+
+.hero h1 {
+    max-width: 1100px;
+    margin: 30px 0;
+    font-size: clamp(42px, 8vw, 112px);
+    line-height: 0.95;
+    letter-spacing: -3px;
+}
+
+.hero-text {
+    max-width: 400px;
+    line-height: 1.6;
+    color: #C8D2C7;
+}
+
+.hero-image {
+    height: 420px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    height: 100%;
+}
+
+.caption {
+    margin-top: 16px;
+    font-size: 10px;
+    letter-spacing: 1px;
+} */
+
+
+/* 4. НАПРАВЛЕНИЯ ИССЛЕДОВАНИЙ */
+
+/* .research {
+    background: #F1F0E8;
+}
+
+h2 {
+    margin: 24px 0 40px;
+    font-size: clamp(32px, 5vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+}
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.research-card {
+    min-width: 0;
+}
+
+.research-card img {
+    height: 320px;
+}
+
+.research-card h3 {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.research-card p {
+    font-size: 14px;
+    line-height: 1.5;
+} */
+
+
+/* 5. ЛАБОРАТОРИИ */
+
+/* .laboratories {
+    background: #E0E7DC;
+}
+
+.lab-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    gap: 48px;
+}
+
+.lab-content img {
+    height: 420px;
+}
+
+.lab-content h3 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.lab-content div p:last-child {
+    max-width: 400px;
+    line-height: 1.7;
+} */
+
+
+/* 6. ВОССТАНОВЛЕННЫЕ ЭКОСИСТЕМЫ */
+
+/* .ecosystems {
+    background: #192B24;
+    color: #F1F0E8;
+}
+
+.ecosystem-list {
+    margin: 50px 0;
+    border-top: 1px solid #637469;
+}
+
+.ecosystem-list p {
+    margin: 0;
+    padding: 18px 0;
+    border-bottom: 1px solid #637469;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.final-phrase {
+    margin-top: 80px;
+    font-size: clamp(28px, 5vw, 64px);
+    line-height: 1.1;
+} */
+
+
+/* 7. ПОДВАЛ */
+
+/* .footer {
+    padding: 24px 6%;
+    background: #192B24;
+    color: #C8D2C7;
+    font-size: 10px;
+} */
+
+
+/* 8. АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНОВ */
+
+/* @media (max-width: 700px) {
+
+    .header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    section {
+        padding: 48px 5%;
+    }
+
+    .hero h1 {
+        letter-spacing: -1.5px;
+    }
+
+    .hero-image {
+        height: 250px;
+    }
+
+    .research-grid,
+    .lab-content {
+        grid-template-columns: 1fr;
+    }
+
+    .research-card img {
+        height: 250px;
+    }
+
+    .lab-content {
+        gap: 24px;
+    }
+
+    .lab-content img {
+        height: 300px;
+    }
+
+    .final-phrase {
+        margin-top: 50px;
+    }
+} */
+
+
+/* @font-face {
+    font-family: 'Atlas Grotesk';
+    src: url('../fonts/AtlasGrotesk-Thin-Cy-Trial-BF662b107d23f89.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    unicode-range: U+0000-00FF, U+0400-052F;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter';
+    src: url('../fonts/AtlasTypewriter-LightItalic-Cy-Trial-BF662b107b9e2ff.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    unicode-range: U+0000-00FF, U+0400-052F;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter';
+    src: url('../fonts/AtlasTypewriter-RegularItalic-Cy-Trial-BF662b107bbf9f0.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    unicode-range: U+0000-00FF, U+0400-052F;
+} */
+
+
+body{
+    background-color: rgba(63, 81, 61, 1);
+
+}
+h1{
+color: rgba(232, 233, 224, 1);
+font-size: 150px;
+font-family: 'Atlas Grotesk';
+}
+p{
+    color: rgba(232, 233, 224, 1);
+    font-size: 24px;
+    font-family: 'Atlas Typewriter';
+    
+}
+.green-star {
+    color: rgba(168, 185, 151, 1);
+}
