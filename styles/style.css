@@ -296,12 +296,26 @@ color: rgba(232, 233, 224, 1);
 font-size: 150px;
 font-family: 'Atlas Grotesk';
 }
-p{
+p {
     color: rgba(232, 233, 224, 1);
     font-size: 24px;
-    font-family: 'Atlas Typewriter';
-    
+    font-family: "Atlas Typewriter", sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
 .green-star {
     color: rgba(168, 185, 151, 1);
+}
+.short-line {
+  width: 400px;          
+  height: 3px;           
+  background-color: rgba(232, 233, 224, 1); 
+  border: none;         
+  margin: 10px 0;      
+  position: left;
+}
+.center-img {
+  display: block;
+  margin: 0 auto;
+  
 }
