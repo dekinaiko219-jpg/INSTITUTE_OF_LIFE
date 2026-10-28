@@ -18,15 +18,3 @@
     font-weight: 400;
     font-style: italic;
 }
-/* @font-face {
-    font-family: "Atlas Grotesk";
-    src: url("./assets/fonts/AtlasGrotesk-Thin-Cy-Trial-BF662b107d23f89.otf")
-         format("opentype");
-    font-weight: 100;
-    font-style: normal;
-} */
-
-body {
-    font-family: "Atlas Grotesk", sans-serif;
-    font-weight: 100;
-}
